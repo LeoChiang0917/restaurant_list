@@ -28,10 +28,11 @@
 `Listening on http://localhost:3000`
 若欲暫停使用
 
-ctrl + c
-開發工具
-Node.js 10.15.0
-Express 4.17.1
-Express-Handlebars 5.3.3
-Bootstrap 5.2.1
-Font-awesome 5.8.1
+`ctrl + c`
+
+## 開發工具
+* Node.js v18.16.0
+* Express 4.16.4
+* Express-Handlebars 3.0.0
+* Bootstrap 5.2.1
+* Font-awesome 5.8.1
