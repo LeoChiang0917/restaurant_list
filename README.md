@@ -1,4 +1,4 @@
-**# 打造餐廳清單 **
+# **打造餐廳清單**
 
 ![image](https://github.com/LeoChiang0917/restaurant_list/assets/132338192/153fded9-73cc-4c02-91c8-5b794e3518bc)
 ![image](https://github.com/LeoChiang0917/restaurant_list/assets/132338192/e104c372-9be7-46a1-a433-fe6d514b080c)
