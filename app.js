@@ -2,16 +2,18 @@ const express = require('express')
 const app = express()
 const port = 3000
 const exphbs = require('express-handlebars')
+const restaurantList = require('./restaurant.json')
 
-app.engine('handlebars', exphbs({default:'main'}))
-app.set('view engine','handlebars')
-
-
-app.get('/',(req,res)=>{
-    res.render('index')
-})
+app.engine('handlebars', exphbs({defaultLayout:'main'}))
+app.set('view engine', 'handlebars')
 
 app.use(express.static('public'))
+
+app.get('/',(req,res)=>{
+    
+    res.render('index',{res:restaurantList.results})
+})
+
 
 app.listen(port,()=>{
     console.log(`Express is listening on localhost:${port}`)
